@@ -5,46 +5,38 @@
     android:background="#5C6BC0"
     android:layout_weight="10"
     android:id="@+id/main">
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_gravity="center"
         android:gravity="center"
         android:paddingLeft="32dp"
-        android:layout_weight="3"
+        android:layout_weight="1.59"
         android:fontFamily="sans-serif-thin"
         android:textColor="#ffffff"
         android:paddingRight="32dp"
+        android:textStyle="bold"
         android:textSize="28sp"
-        android:text="Slide 3 title"/>
+        android:text="Choose directly from 1000s of closets"/>
+
 
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="0dp"
         android:orientation="vertical"
         android:gravity="center"
-        android:layout_weight="5">
+        android:layout_weight="5"
+        android:background="@drawable/image3resized">
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
             android:layout_gravity="center"
             android:paddingLeft="16dp"
             android:paddingRight="16dp"
-            android:src="@drawable/image3"/>
+            />
     </LinearLayout>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_weight="3"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:textColor="#ffffff"
-        android:paddingLeft="64dp"
-        android:paddingRight="64dp"
-        android:textSize="16sp"
-        android:text="Loooooooooooooooo[...]ooooooooong descreption here"/>
+
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="64dp" />

@@ -21,10 +21,9 @@ public class CustomIntro extends AppIntro {
         addSlide(new ThirdSlide(), getApplicationContext());
         addSlide(new FourthSlide(), getApplicationContext());
 
-        setBarColor(Color.parseColor("#3F51B5"));
-        setSeparatorColor(Color.parseColor("#2196F3"));
-        showSkipButton(false);
-
+        /*setBarColor(Color.parseColor("#FF6B53"));
+        setSeparatorColor(Color.parseColor("#2196F3"));*/
+        showSkipButton(true);
         setVibrate(true);
         setVibrateIntensity(30);
     }
@@ -39,6 +38,7 @@ public class CustomIntro extends AppIntro {
         loadMainActivity();
         Toast.makeText(getApplicationContext(), getString(R.string.skip), Toast.LENGTH_SHORT).show();
     }
+
 
     @Override
     public void onDonePressed() {
