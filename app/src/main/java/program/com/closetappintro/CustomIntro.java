@@ -1,11 +1,7 @@
 package program.com.closetappintro;
 
 import android.content.Intent;
-import android.graphics.Color;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
@@ -16,7 +12,7 @@ public class CustomIntro extends AppIntro {
 
     @Override
     public  void init(Bundle savedInstanceState) {
-        addSlide(new FirstSlide(),getApplicationContext());
+        addSlide(new FirstSlide(), getApplicationContext());
         addSlide(new SecondSlide(), getApplicationContext());
         addSlide(new ThirdSlide(), getApplicationContext());
         addSlide(new FourthSlide(), getApplicationContext());
@@ -29,7 +25,7 @@ public class CustomIntro extends AppIntro {
     }
 
     private void loadMainActivity(){
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, LogIn.class);
         startActivity(intent);
     }
 
@@ -42,6 +38,7 @@ public class CustomIntro extends AppIntro {
 
     @Override
     public void onDonePressed() {
+
         loadMainActivity();
     }
 
