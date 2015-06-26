@@ -51,8 +51,7 @@
     <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:paddingLeft="@dimen/activity_horizontal_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin"
+
         android:layout_weight="0.18">
         <RadioButton
             android:layout_width="wrap_content"
@@ -113,8 +112,7 @@
     <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:paddingLeft="@dimen/activity_horizontal_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin"
+
         android:layout_weight="0.18">
         <RadioButton
             android:layout_width="wrap_content"
