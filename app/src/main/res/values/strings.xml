@@ -10,14 +10,14 @@
     <string name="title_activity_recycler_view">RecyclerView</string>
 
     <string-array name="image_ids">
-        <item>@drawable/imagecard1</item>
-        <item>@drawable/image6</item>
-        <item>@drawable/image4</item>
-        <item>@drawable/image5</item>
-        <item>@drawable/image3resized</item>
-        <item>@drawable/imagecard2</item>
-        <item>@drawable/image</item>
-        <item>@drawable/image2</item>
+        <item>@drawable/africanwear</item>
+        <item>@drawable/flowwytoop</item>
+        <item>@drawable/handbag</item>
+        <item>@drawable/quipid</item>
+        <item>@drawable/whiteboots</item>
+        <item>@drawable/shortdress</item>
+        <item>@drawable/top</item>
+        <item>@drawable/earings</item>
 
 
     </string-array>

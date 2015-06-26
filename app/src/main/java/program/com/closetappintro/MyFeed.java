@@ -65,14 +65,14 @@ public class MyFeed extends Fragment {
         TypedArray imgs = getResources().obtainTypedArray(R.array.image_ids);
 
         ArrayList<String>  mStringStyle= new ArrayList<String>();
-        mStringStyle.add("outfit1");
-        mStringStyle.add("outfit1");
-        mStringStyle.add("outfit1");
-        mStringStyle.add("outfit1");
-        mStringStyle.add("outfit1");
-        mStringStyle.add("outfit1");
-        mStringStyle.add("outfit1");
-        mStringStyle.add("outfit1");
+        mStringStyle.add("AfricanWear");
+        mStringStyle.add("Top");
+        mStringStyle.add("Handbag");
+        mStringStyle.add("heels");
+        mStringStyle.add("White boots");
+        mStringStyle.add("Short Dress");
+        mStringStyle.add("ladies top");
+        mStringStyle.add("Earings");
 
         for (int i = 0; i < imgs.length(); i++) {
             /*int sname=i+1;*/

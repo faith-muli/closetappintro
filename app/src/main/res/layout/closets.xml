@@ -5,11 +5,12 @@
     android:orientation="vertical"
     android:layout_height="match_parent">
 
+
     <android.support.v7.widget.CardView
         xmlns:card_view="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="5dp"
         card_view:cardCornerRadius="5dp"
 
       >
@@ -17,7 +18,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="16dp"
+            android:padding="5dp"
             >
 
             <ImageView
@@ -25,25 +26,115 @@
                 android:layout_height="100dp"
                 android:id="@+id/photo"
                 android:layout_marginRight="16dp"
-                android:src="@drawable/imagecard2"
+                android:src="@drawable/top"
                 />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/name"
-                android:text=" "
+                android:text="Nancy's Closet "
                 android:layout_toRightOf="@+id/photo"
                 android:layout_alignParentTop="true"
                 android:textSize="30sp"
                 />
 
-            <TextView
+            <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/person_age"
+                android:text=" + Follow"
+                android:background="#FF6B53"
                 android:layout_toRightOf="@+id/photo"
                 android:layout_below="@+id/name"
+                />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        card_view:cardCornerRadius="5dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/photo1"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/imagecard2"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/name1"
+                android:text=" Diana's Closet"
+                android:layout_toRightOf="@+id/photo1"
+                android:layout_alignParentTop="true"
+                android:textSize="30sp"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/follow"
+                android:text=" + Follow"
+                android:background="#FF6B53"
+                android:layout_toRightOf="@+id/photo1"
+                android:layout_below="@+id/name1"
+                />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        card_view:cardCornerRadius="5dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/photo3"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/image6"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/name3"
+                android:text=" Shiko's Closet"
+                android:layout_toRightOf="@+id/photo3"
+                android:layout_alignParentTop="true"
+                android:textSize="30sp"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/follow3"
+                android:text=" + Follow"
+                android:background="#FF6B53"
+                android:layout_toRightOf="@+id/photo3"
+                android:layout_below="@+id/name3"
                 />
 
         </RelativeLayout>
@@ -65,27 +156,29 @@
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:id="@+id/photo1"
+                android:id="@+id/photo4"
                 android:layout_marginRight="16dp"
-                android:src="@drawable/imagecard2"
+
                 />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/name1"
-                android:text=" "
-                android:layout_toRightOf="@+id/photo1"
+                android:id="@+id/name4"
+                android:text=" Makena's Closet"
+                android:layout_toRightOf="@+id/photo4"
                 android:layout_alignParentTop="true"
                 android:textSize="30sp"
                 />
 
-            <TextView
+            <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/follow"
-                android:layout_toRightOf="@+id/photo1"
-                android:layout_below="@+id/name1"
+                android:id="@+id/follow4"
+                android:text=" + Follow"
+                android:background="#FF6B53"
+                android:layout_toRightOf="@+id/photo4"
+                android:layout_below="@+id/name4"
                 />
 
         </RelativeLayout>
