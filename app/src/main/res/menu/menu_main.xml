@@ -12,7 +12,8 @@
         android:orderInCategory="200"
         android:title="Search"
         android:icon="@mipmap/ic_action"
-        app:showAsAction="ifRoom"
+        app:showAsAction="always"
+
         ></item>
     <item
         android:id="@+id/action_user"

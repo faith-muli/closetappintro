@@ -40,7 +40,7 @@
     <RadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="MALE"
+        android:text="FEMALE"
         android:id="@+id/radioButton1" />
 
     <RadioButton
@@ -54,7 +54,7 @@
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Top SIZE"
+            android:text="Top Size"
             android:textSize="25dp"
             android:layout_marginTop="10dp"
             android:paddingLeft="@dimen/activity_horizontal_margin"
@@ -184,15 +184,16 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="SHOE SIZE:UK  "
+            android:text="Shoe Size: UK  "
             android:textSize="25dp"
             android:id="@+id/textshoe"
             />
         <EditText
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="14"
-
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:hint="10"
             android:layout_toRightOf="@+id/textshoe"/>
     </RelativeLayout>
     <Button

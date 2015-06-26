@@ -33,7 +33,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:label="@string/title_activity_main" >
+            android:label="VAZI" >
         </activity>
         <activity
             android:name=".SetPreference"
