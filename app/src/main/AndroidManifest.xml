@@ -35,6 +35,10 @@
             android:name=".MainActivity"
             android:label="@string/title_activity_main" >
         </activity>
+        <activity
+            android:name=".SetPreference"
+            android:label="@string/title_activity_set_profile" >
+        </activity>
     </application>
 
 </manifest>

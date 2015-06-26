@@ -1,7 +1,7 @@
 package program.com.closetappintro;
 
-import android.app.Activity;
 import android.content.Intent;
+import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -9,39 +9,28 @@ import android.view.View;
 import android.widget.Button;
 
 
-public class LogIn extends Activity {
-    Button btn1;
-    Button btn2;
+public class SetPreference extends ActionBarActivity {
+    Button btn3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.login);
-        btn1=(Button)findViewById(R.id.fbloginbtn);
-        btn2=(Button)findViewById(R.id.loginbtn);
-        btn1.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_set_preference);
+        btn3=(Button)findViewById(R.id.submitbbtn);
+        btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(LogIn.this, SetPreference.class);
+                Intent intent=new Intent(SetPreference.this, MainActivity.class);
                 startActivity(intent);
                 finish();
             }
         });
-        btn2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(LogIn.this, SetPreference.class);
-                startActivity(intent);
-                finish();
-            }
-        });
-        
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+        getMenuInflater().inflate(R.menu.menu_set_profile, menu);
         return true;
     }
 
