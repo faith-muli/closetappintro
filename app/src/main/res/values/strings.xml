@@ -8,4 +8,18 @@
     <string name="title_activity_closet49splash">Closet49splash</string>
     <string name="title_activity_set_profile">SetProfile</string>
     <string name="title_activity_recycler_view">RecyclerView</string>
+
+    <string-array name="image_ids">
+        <item>@drawable/imagecard1</item>
+        <item>@drawable/image6</item>
+        <item>@drawable/image4</item>
+        <item>@drawable/image5</item>
+        <item>@drawable/image3resized</item>
+        <item>@drawable/imagecard2</item>
+        <item>@drawable/image</item>
+        <item>@drawable/image2</item>
+
+
+    </string-array>
+
 </resources>
