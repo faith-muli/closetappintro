@@ -21,5 +21,6 @@
 
 
     </string-array>
+    <string name="title_activity_single_item_page">SingleItemPage</string>
 
 </resources>

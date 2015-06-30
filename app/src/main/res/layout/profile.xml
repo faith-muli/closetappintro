@@ -12,6 +12,8 @@
     <GridLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+
 
         >
         <ImageView
@@ -20,72 +22,138 @@
             android:src="@drawable/imagecard1"
             android:layout_marginLeft="10dp"
             android:paddingRight="5dp"/>
-        <ImageView
-            android:layout_width="150dp"
-            android:layout_height="160dp"
-            android:src="@drawable/imagecard2"
-            android:layout_marginRight="10dp"
-            android:paddingLeft="5dp"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="30dp"
+            android:text="Diana's \n Closet"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp" />
+
+
+
 
     </GridLayout>
-    <GridLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="5dp">
-        <ImageView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:src="@drawable/image3"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="15dp"/>
-        <ImageView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:src="@drawable/image6"
-            android:layout_marginTop="15dp"
-            android:layout_marginRight="10dp"/>
-    </GridLayout>
-    <GridLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
 
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#00BCD4">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="10 \n OUFITS"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="80 \n FOLLOWERS"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="50 \n FOLLOWING"
+                android:padding="10dp"/>
+        </TableRow>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="3dp"
+        card_view:cardCornerRadius="5dp"
         >
-        <ImageView
-            android:layout_width="150dp"
-            android:layout_height="160dp"
-            android:src="@drawable/imagecard1"
-            android:layout_marginLeft="10dp"
-            android:paddingRight="5dp"/>
-        <ImageView
-            android:layout_width="150dp"
-            android:layout_height="160dp"
-            android:src="@drawable/imagecard2"
-            android:layout_marginRight="10dp"
-            android:paddingLeft="5dp"/>
 
-    </GridLayout>
-    <GridLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            >
 
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/photo3"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/handbag"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/name3"
+                android:text=" Handbag"
+                android:layout_toRightOf="@+id/photo3"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="5dp"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/follow3"
+                android:text="kshs 2000"
+                android:textSize="20dp"
+                android:background="#FF6B53"
+                android:layout_toRightOf="@+id/photo3"
+                android:layout_below="@+id/name3"
+                />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        card_view:cardCornerRadius="5dp"
         >
-        <ImageView
-            android:layout_width="150dp"
-            android:layout_height="160dp"
-            android:src="@drawable/imagecard1"
-            android:layout_marginLeft="10dp"
-            android:paddingRight="5dp"/>
-        <ImageView
-            android:layout_width="150dp"
-            android:layout_height="160dp"
-            android:src="@drawable/imagecard2"
-            android:layout_marginRight="10dp"
-            android:paddingLeft="5dp"
-            />
 
-    </GridLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/photoshoeoe"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/quipid"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/nameshoe"
+                android:text=" Handbag"
+                android:layout_toRightOf="@+id/photoshoeoe"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="5dp"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/follow6"
+                android:text="kshs 2000"
+                android:textSize="20dp"
+                android:background="#FF6B53"
+                android:layout_toRightOf="@+id/photoshoeoe"
+                android:layout_below="@+id/nameshoe"
+                />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+
 
 
 

@@ -38,7 +38,7 @@ public class MyFeed extends Fragment {
                 ImageItem item = (ImageItem) parent.getItemAtPosition(position);
                 Log.d("ERROR", "before  intent");
                 //Create intent
-                Intent intent = new Intent(getActivity().getApplicationContext(),Closets.class);
+                Intent intent = new Intent(getActivity().getApplicationContext(),SingleItemPage.class);
                 getActivity().startActivity(intent);
                 Log.d("ERROR", "starting activity");
 
